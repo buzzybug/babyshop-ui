@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.login-container {
+  height: 100vh;
+  display: flex;
+  background: radial-gradient(circle at left, #0f172a, #000);
+  color: white;
+}
+
+.page {
+  min-height: calc(100vh - 70px);
+  background: #020617;
+  margin-right: -8px;
+  margin-left: -10px;
+  margin-top: -79px;
+  padding-top: 10px;
+}
+
+.animation-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.animation-section h2 {
+  margin-top: 20px;
+  color: #60a5fa;
+  font-weight: 300;
+}
+
+.form-section {
+  flex: 1;
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px;
+}
+
+.form-section h1 {
+  margin-bottom: 30px;
+  color: #93c5fd;
+}
+
+.form-section input {
+  background: transparent;
+  border: 1px solid #1e3a8a;
+  padding: 14px;
+  margin-bottom: 20px;
+  color: white;
+  border-radius: 8px;
+}
+
+.form-section input::placeholder {
+  color: #94a3b8;
+}
+
+.form-section button {
+  padding: 14px;
+  background: linear-gradient(135deg, #1e3a8a, #2563eb);
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-section button:hover {
+  box-shadow: 0 0 20px #2563eb;
+}
+
+.signup {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.signup span {
+  color: #60a5fa;
+  cursor: pointer;
+}
+
+/* 🌌 Subtle floating particles background */
+.login-container::before,
+.home-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(circle, rgba(59, 130, 246, 0.18) 1px, transparent 1px);
+  background-size: 40px 40px;
+  animation: particlesFloat 25s linear infinite;
+  z-index: 0;
+  pointer-events: none;
+}
+
+@keyframes particlesFloat {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 0 -500px;
+  }
+}
+
+/* Make sure content stays above particles */
+.animation-section,
+.form-section,
+.hero,
+.features {
+  position: relative;
+  z-index: 1;
+}
