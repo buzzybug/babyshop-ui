@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/babyshop-ui/static/css/main.0248a511.css",
+    "main.css": "/babyshop-ui/static/css/main.788ca8c8.css",
     "main.js": "/babyshop-ui/static/js/main.a662dfc2.js",
     "static/media/giftset.png": "/babyshop-ui/static/media/giftset.494f2b446f36d58a6205.png",
     "static/media/baby1.png": "/babyshop-ui/static/media/baby1.a9494d3b170d54989306.png",
@@ -8,11 +8,11 @@
     "static/media/shampoo.png": "/babyshop-ui/static/media/shampoo.63271cd8ea3180c6fd87.png",
     "static/media/babymom.png": "/babyshop-ui/static/media/babymom.aae16c481a9231d27c50.png",
     "index.html": "/babyshop-ui/index.html",
-    "main.0248a511.css.map": "/babyshop-ui/static/css/main.0248a511.css.map",
+    "main.788ca8c8.css.map": "/babyshop-ui/static/css/main.788ca8c8.css.map",
     "main.a662dfc2.js.map": "/babyshop-ui/static/js/main.a662dfc2.js.map"
   },
   "entrypoints": [
-    "static/css/main.0248a511.css",
+    "static/css/main.788ca8c8.css",
     "static/js/main.a662dfc2.js"
   ]
 }
