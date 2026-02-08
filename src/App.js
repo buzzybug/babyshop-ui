@@ -9,6 +9,8 @@ import Navbar from "./components/Navbar";
 import AdminLogin from "./pages/admin/AdminLogin";
 import Dashboard from "./pages/admin/Dashboard";
 import ProtectedRoute from "./components/ProtectedRoute";
+import Payment from "./pages/Payment";
+import OrderSuccess from "./pages/OrderSuccess";
 
 function App() {
   return (
@@ -37,6 +39,11 @@ function App() {
             <Orders />
           </ProtectedRoute>
         } />
+        <Route path="/payment" element={<ProtectedRoute>
+          <Payment />          </ProtectedRoute>
+        } />
+        <Route path="/order-success" element={<ProtectedRoute><OrderSuccess /></ProtectedRoute>} />
+
 
         <Route path="/admin/login" element={<AdminLogin />} />
         <Route path="/admin/dashboard" element={<Dashboard />} />
