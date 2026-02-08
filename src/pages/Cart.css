@@ -1,3 +1,24 @@
+@media (max-width: 768px) {
+  .cart-content {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .cart-item {
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .cart-summary {
+    width: 100%;
+    position: static;
+  }
+
+  .cart-container {
+    padding: 16px;
+  }
+}
 .cart-container {
   min-height: 100vh;
   padding: 100px 8%;

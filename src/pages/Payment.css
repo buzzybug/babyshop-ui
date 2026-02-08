@@ -1,3 +1,13 @@
+@media (max-width: 768px) {
+  .payment-container {
+    padding: 16px;
+  }
+
+  .payment-card {
+    width: 100%;
+    padding: 16px;
+  }
+}
 .payment-container {
   max-width: 400px;
   margin: 60px auto;
@@ -27,3 +37,4 @@
   font-size: 16px;
   cursor: pointer;
 }
+

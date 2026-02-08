@@ -1,3 +1,27 @@
+@media (max-width: 768px) {
+  .login-container,
+  .signup-container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px 16px;
+    border-radius: 0;
+  }
+
+  .login-box,
+  .signup-box {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .login-box h2,
+  .signup-box h2 {
+    font-size: 1.6rem;
+  }
+
+  .login-illustration {
+    display: none; /* hide side image on mobile */
+  }
+}
 * {
   box-sizing: border-box;
   font-family: "Segoe UI", sans-serif;

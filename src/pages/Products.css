@@ -1,3 +1,14 @@
+@media (max-width: 768px) {
+  .products-grid {
+    grid-template-columns: 1fr;
+    padding: 16px;
+    gap: 16px;
+  }
+
+  .product-card {
+    border-radius: 12px;
+  }
+}
 .products-container {
   min-height: 100vh;
   padding: 100px 8%;
@@ -38,3 +49,4 @@
   margin-top: -79px;
   padding-top: 10px;
 }
+
